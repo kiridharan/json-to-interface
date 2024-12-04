@@ -64,7 +64,17 @@ export default function Home() {
 
   return (
     <main className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">JSON to interface Converter</h1>
+      <div
+        className="flex justify-between items-center mb-8"
+        style={{ maxWidth: "800px" }}
+      >
+        <h1 className="text-3xl font-bold mb-6">JSON to interface Converter</h1>
+        <h4>
+          <a href="https://github.com/kiridharan/json-to-interface">
+            Feel free to contribute
+          </a>
+        </h4>
+      </div>
       <div className="mb-4">
         <Label htmlFor="interface-name">Interface Name</Label>
         <Input
